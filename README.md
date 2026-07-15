@@ -182,4 +182,3 @@ The goal is to document not only the final configuration but also the reasoning,
 
 This repository documents my personal learning journey and Windows Server home lab environment. All configurations, troubleshooting scenarios, and administrative tasks are performed within an isolated VMware Workstation Pro environment for educational and professional development purposes.
 
-Create initial project documentation
