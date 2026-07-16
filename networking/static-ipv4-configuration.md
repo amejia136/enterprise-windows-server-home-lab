@@ -33,6 +33,8 @@ The following information was identified:
 - DNS Server
 - DHCP Status
 
+![Initial DHCP Configuration](../screenshots/01-ipconfig-static-ipv4-verification.png)
+
 ---
 
 ## DHCP Scope Investigation
@@ -52,6 +54,10 @@ Assigned Static Address:
 - Subnet Mask: 255.255.255.0
 - Default Gateway: 192.168.130.2
 - Preferred DNS Server: 192.168.130.2
+
+The VMware DHCP scope and the configured static IPv4 settings are shown below.
+
+![Static IPv4 Configuration](../screenshots/02-static-ipv4-and-vmware-dhcp-scope.png)
 
 ---
 
@@ -79,6 +85,10 @@ DNS name resolution was verified using:
 ```powershell
 nslookup google.com
 ```
+
+The successful connectivity and DNS verification are shown below.
+
+![Ping and DNS Verification](../screenshots/03-ping-and-dns-verification.png)
 
 ---
 
