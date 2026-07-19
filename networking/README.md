@@ -33,7 +33,7 @@ The following information was identified:
 - DNS Server
 - DHCP Status
 
-![Initial DHCP Configuration](../screenshots/01-ipconfig-static-ipv4-verification.png)
+![Initial DHCP Configuration](screenshots/01-ipconfig-static-ipv4-verification.png)
 
 ---
 
@@ -57,7 +57,7 @@ Assigned Static Address:
 
 The VMware DHCP scope and the configured static IPv4 settings are shown below.
 
-![Static IPv4 Configuration](../screenshots/02-static-ipv4-and-vmware-dhcp-scope.png)
+![Static IPv4 Configuration](screenshots/02-static-ipv4-and-vmware-dhcp-scope.png)
 
 ---
 
@@ -88,7 +88,7 @@ nslookup google.com
 
 The successful connectivity and DNS verification are shown below.
 
-![Ping and DNS Verification](../screenshots/03-ping-and-dns-verification.png)
+![Ping and DNS Verification](screenshots/03-ping-and-dns-verification.png)
 
 ---
 
