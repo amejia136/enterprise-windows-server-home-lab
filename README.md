@@ -1,4 +1,4 @@
-# Enterprise Windows Server & Active Directory Home Lab
+# Enterprise Windows Server Home Lab
 
 ## Overview
 
@@ -15,7 +15,7 @@ The objective of this project is to build a complete enterprise Windows Server e
 # Technologies
 
 - Windows Server 2025
-- Windows 11
+- Windows 11 Enterprise
 - VMware Workstation Pro
 - Active Directory Domain Services (AD DS)
 - DNS
@@ -23,6 +23,7 @@ The objective of this project is to build a complete enterprise Windows Server e
 - Group Policy
 - PowerShell
 - TCP/IP Networking
+- Active Directory Users and Computers (ADUC)
 
 ---
 
@@ -41,6 +42,9 @@ The objective of this project is to build a complete enterprise Windows Server e
 - IT Support Troubleshooting
 - Root Cause Analysis
 - Break/Fix Troubleshooting
+- Active Directory Organizational Unit Design
+- Security Group Administration
+- Identity & Access Management (IAM)
 
 ---
 
@@ -52,9 +56,10 @@ The objective of this project is to build a complete enterprise Windows Server e
 | Windows Server Installation | Complete |
 | Static IPv4 Configuration | Complete |
 | Basic Network Troubleshooting | Complete |
-| Active Directory Domain Services | In Progress |
-| Organizational Units (OUs) | Planned |
-| User & Group Management | Planned |
+| Active Directory Domain Services | Complete |
+| Organizational Units (OUs) | Complete |
+| User Management | Complete |
+| Security Groups | Complete |
 | Windows Client Domain Join | Planned |
 | DNS Administration | Planned |
 | DHCP Administration | Planned |
