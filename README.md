@@ -139,9 +139,14 @@ Completed:
 - Configured a static IPv4 address for the server.
 - Verified network connectivity using PowerShell.
 - Verified DNS name resolution using `nslookup`.
-- Investigated DHCP configuration using `ipconfig /all`.
-- Identified the VMware DHCP scope and selected an appropriate static server address outside the DHCP pool.
-- Completed break/fix exercises involving DHCP misconfiguration, network verification, and configuration restoration.
+- Investigated VMware DHCP scope and assigned an appropriate static IPv4 address.
+- Completed networking break/fix exercises involving DHCP misconfiguration and connectivity restoration.
+- Installed Active Directory Domain Services (AD DS).
+- Promoted the server to the first Domain Controller for the `homelab.local` domain.
+- Created Organizational Units (OUs) to organize departments.
+- Created Active Directory user accounts.
+- Created Global Security Groups following enterprise best practices.
+- Added users to Security Groups using Active Directory Users and Computers (ADUC).
 
 ---
 
