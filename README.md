@@ -15,7 +15,7 @@ The objective of this project is to build a complete enterprise Windows Server e
 # Technologies
 
 - Windows Server 2025
-- Windows 11 Enterprise
+- Windows 11
 - VMware Workstation Pro
 - Active Directory Domain Services (AD DS)
 - DNS
@@ -45,6 +45,11 @@ The objective of this project is to build a complete enterprise Windows Server e
 - Active Directory Organizational Unit Design
 - Security Group Administration
 - Identity & Access Management (IAM)
+- Windows Client Deployment
+- Domain Join Administration
+- Domain Authentication
+- Computer Account Management
+- DNS Client Configuration
 
 ---
 
@@ -60,7 +65,8 @@ The objective of this project is to build a complete enterprise Windows Server e
 | Organizational Units (OUs) | Complete |
 | User Management | Complete |
 | Security Groups | Complete |
-| Windows Client Domain Join | Planned |
+| Windows Client Domain Join | Complete |
+| Domain Authentication Verification | Complete |
 | DNS Administration | Planned |
 | DHCP Administration | Planned |
 | Group Policy | Planned |
@@ -77,38 +83,22 @@ The objective of this project is to build a complete enterprise Windows Server e
 enterprise-windows-server-home-lab
 │
 ├── architecture
-│   ├── Network diagrams
-│   └── Lab topology
 │
 ├── networking
-│   ├── IPv4 configuration
-│   ├── DNS
-│   ├── DHCP
-│   └── Connectivity testing
 │
-├── active-directory
-│   ├── Domain Controller
-│   ├── Organizational Units
-│   ├── Users
-│   ├── Groups
-│   └── Group Policy
+├── active-directory/
+│   ├── install-active-directory/
+│   ├── organizational-units/
+│   ├── users-and-security-groups/
+│   ├── join-computers-to-domain/
+│   └── README.md
 │
 ├── dns
-│
 ├── dhcp
-│
 ├── group-policy
-│
 ├── file-server
-│
 ├── permissions
-│
 ├── troubleshooting
-│   ├── Help Desk Tickets
-│   ├── Root Cause Analysis
-│   └── Resolutions
-│
-├── screenshots
 │
 └── README.md
 ```
@@ -147,6 +137,13 @@ Completed:
 - Created Active Directory user accounts.
 - Created Global Security Groups following enterprise best practices.
 - Added users to Security Groups using Active Directory Users and Computers (ADUC).
+- Deployed a Windows 11 client (CLIENT01).
+- Troubleshot DNS resolution issues preventing the domain join.
+- Configured the client to use the Domain Controller as its preferred DNS server.
+- Successfully joined CLIENT01 to the `homelab.local` Active Directory domain.
+- Verified the computer account was automatically created in Active Directory.
+- Authenticated to the domain using both the built-in Administrator account and a standard domain user account.
+- Verified authentication using `whoami` and `%LOGONSERVER%`.
 
 ---
 
@@ -154,18 +151,17 @@ Completed:
 
 Upcoming topics include:
 
-- Active Directory Domain Services
-- Organizational Units
-- User and Group Administration
-- Windows Client Domain Join
 - DNS Administration
 - DHCP Administration
 - Group Policy
-- File Services
+- File Server
 - NTFS Permissions
 - Share Permissions
 - PowerShell Administration
 - Enterprise IT Support Troubleshooting
+- Group Policy Security Hardening
+- Roaming Profiles
+- Folder Redirection
 
 ---
 
