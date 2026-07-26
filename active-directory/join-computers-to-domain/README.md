@@ -40,11 +40,11 @@ I then tested name resolution and discovered the client could communicate with t
 
 ### Screenshots
 
-![](screenshots/01-domain-join-troubleshooting-ipconfig-and-dns-cache.jpg)
+![](screenshots/03-client01-network-configuration-before-fix.jpg)
 
 ![](screenshots/02-domain-join-troubleshooting-failed-name-resolution.jpg)
 
-![](screenshots/03-client01-network-configuration-before-fix.jpg)
+![](screenshots/01-domain-join-troubleshooting-ipconfig-and-dns-cache.jpg)
 
 ---
 
