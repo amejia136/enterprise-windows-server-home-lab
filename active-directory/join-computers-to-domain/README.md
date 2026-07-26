@@ -40,11 +40,11 @@ I then tested name resolution and discovered the client could communicate with t
 
 ### Screenshots
 
-![](screenshots/03-client01-network-configuration-before-fix.jpg)
+![](screenshots/10-client01-network-configuration-before-fix.jpg)
 
-![](screenshots/02-domain-join-troubleshooting-failed-name-resolution.jpg)
+![](screenshots/11-domain-join-troubleshooting-failed-name-resolution.jpg)
 
-![](screenshots/01-domain-join-troubleshooting-ipconfig-and-dns-cache.jpg)
+![](screenshots/12-domain-join-troubleshooting-ipconfig-and-dns-cache.jpg)
 
 ---
 
@@ -62,7 +62,7 @@ Preferred DNS:
 
 ### Screenshot
 
-![](screenshots/04-configure-client01-dns-server.jpg)
+![](screenshots/13-configure-client01-dns-server.jpg)
 
 ---
 
@@ -78,9 +78,9 @@ I also reviewed the DNS Manager configuration and confirmed the server hostname.
 
 ### Screenshots
 
-![](screenshots/05-review-dns-manager-and-server-hostname.jpg)
+![](screenshots/14-review-dns-manager-and-server-hostname.jpg)
 
-![](screenshots/06-verify-network-connectivity-after-dns-fix.jpg)
+![](screenshots/15-verify-network-connectivity-after-dns-fix.jpg)
 
 ---
 
@@ -92,7 +92,7 @@ After joining the domain, the computer was restarted to complete the process.
 
 ### Screenshot
 
-![](screenshots/07-join-client01-to-homelab-domain.jpg)
+![](screenshots/16-join-client01-to-homelab-domain.jpg)
 
 ---
 
@@ -104,7 +104,7 @@ This verified that the Domain Controller successfully created the computer accou
 
 ### Screenshot
 
-![](screenshots/08-client01-added-to-active-directory-computers-container.jpg)
+![](screenshots/17-client01-added-to-active-directory-computers-container.jpg)
 
 ---
 
@@ -129,7 +129,7 @@ These commands confirmed:
 
 ### Screenshot
 
-![](screenshots/09-verify-domain-user-authentication.jpg)
+![](screenshots/18-verify-domain-user-authentication.jpg)
 
 ---
 
