@@ -2,44 +2,64 @@
 
 ## Overview
 
-This section of the Enterprise Windows Server Home Lab documents the deployment and administration of Active Directory within a Windows Server 2025 enterprise environment.
+This section documents the deployment and administration of Microsoft Active Directory within a Windows Server 2025 enterprise environment.
 
-Active Directory provides centralized authentication, authorization, and management for users, computers, security groups, and organizational resources.
+Active Directory serves as the central identity management system for the lab, providing authentication, authorization, organizational structure, and security management for users, computers, security groups, and other network resources.
 
-Each topic below is documented in its own folder with step-by-step instructions, screenshots, and explanations.
+Each major topic is documented separately with objectives, explanations, screenshots, skills demonstrated, and lessons learned to mirror real-world enterprise infrastructure documentation.
 
 ---
 
-# Topics
+## Table of Contents
+
+1. [Installing Active Directory](#1-installing-active-directory)
+2. [Organizational Units](#2-organizational-units)
+3. [Users and Security Groups](#3-users-and-security-groups)
+4. [Joining Computers to the Domain](#4-joining-computers-to-the-domain)
+5. [Future Topics](#future-topics)
+6. [Skills Demonstrated](#skills-demonstrated)
+7. [Tools Used](#tools-used)
+8. [Related Documentation](#related-documentation)
+
+---
+
+# Documentation Sections
 
 ## 1. Installing Active Directory
 
-Deploy Active Directory Domain Services (AD DS) and promote the server to the first Domain Controller.
+**Status:** ✅ Complete
 
-**Folder**
+Deploy Active Directory Domain Services (AD DS), install the first Domain Controller, create the Active Directory forest, and configure integrated DNS services.
 
-```text
-install-active-directory/
-```
+**Documentation**
+
+- [`install-active-directory/`](install-active-directory/)
 
 Topics covered:
 
-- Installing AD DS
-- Promoting the server to a Domain Controller
-- Creating the homelab.local forest
-- DNS installation
-- Deployment verification
+- Installing Active Directory Domain Services (AD DS)
+- Promoting Windows Server to a Domain Controller
+- Creating the **homelab.local** forest
+- Installing and configuring DNS
+- Verifying successful deployment
 
 ---
 
 ## 2. Organizational Units
 
-Create an enterprise Organizational Unit (OU) structure for departments.
+**Status:** ✅ Complete
+
+Design and implement an enterprise Organizational Unit (OU) structure to organize departments and prepare the environment for future Group Policy deployment.
+
+**Documentation**
+
+- [`organizational-units/`](organizational-units/)
 
 Topics covered:
 
+- Creating Organizational Units
 - Creating department OUs
-- Enterprise organization
+- Enterprise directory organization
 - Administrative separation
 - Preparing for Group Policy
 
@@ -47,54 +67,91 @@ Topics covered:
 
 ## 3. Users and Security Groups
 
-Create users and manage security groups following Microsoft's recommended best practices.
+**Status:** ✅ Complete
+
+Create user accounts and implement Global Security Groups following Microsoft's recommended identity and access management practices.
+
+**Documentation**
+
+- [`users-and-security-groups/`](users-and-security-groups/)
 
 Topics covered:
 
 - Creating user accounts
-- Security Groups
-- Group Membership
+- Creating Global Security Groups
+- Managing group membership
 - Role-Based Access Control (RBAC)
+- Enterprise permission management
 
 ---
 
 ## 4. Joining Computers to the Domain
 
-*In Progress*
+**Status:** 🚧 In Progress
+
+Join Windows client computers to the Active Directory domain and verify domain authentication.
 
 Topics covered:
 
 - Joining Windows clients to Active Directory
+- Computer account creation
 - Domain authentication
-- Computer accounts
-- Domain logins
+- Logging in with domain accounts
+- Troubleshooting domain joins
 
 ---
 
 ## Future Topics
 
-The Active Directory section will continue expanding with additional enterprise administration topics including:
+As the home lab expands, additional Active Directory administration topics will be documented.
 
-- Group Policy
+### Identity Management
+
 - Password Policies
 - User Management
-- Computer Management
 - Administrative Delegation
+
+### Group Policy
+
+- Group Policy Objects (GPOs)
+- Department Policies
+- Security Policies
+- Software Deployment
+
+### Computer Management
+
+- Domain-Joined Computers
+- Computer Accounts
+- Remote Administration
+
+### Active Directory Maintenance
+
+- User Lifecycle Management
+- Organizational Unit Administration
+- Security Group Administration
+
+### Troubleshooting
+
 - Active Directory Troubleshooting
+- Authentication Issues
+- DNS Integration Issues
+- Group Policy Troubleshooting
 
 ---
 
 ## Skills Demonstrated
 
 - Windows Server Administration
-- Active Directory
+- Active Directory Domain Services (AD DS)
 - Domain Controller Deployment
 - Organizational Unit Design
+- Enterprise Directory Organization
 - User Administration
-- Security Group Management
+- Security Group Administration
+- Role-Based Access Control (RBAC)
 - Enterprise Authentication
 - DNS Integration
-- Microsoft Best Practices
+- Microsoft Active Directory Best Practices
 
 ---
 
@@ -105,3 +162,17 @@ The Active Directory section will continue expanding with additional enterprise 
 - Server Manager
 - Active Directory Users and Computers (ADUC)
 - DNS Manager
+
+---
+
+## Related Documentation
+
+Additional components of this enterprise lab include:
+
+- Networking
+- DNS
+- DHCP
+- Group Policy
+- File Server
+- Permissions
+- Troubleshooting
