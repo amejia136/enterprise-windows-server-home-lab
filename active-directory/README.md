@@ -87,17 +87,23 @@ Topics covered:
 
 ## 4. Joining Computers to the Domain
 
-**Status:** In Progress
+**Status:** Complete
 
-Join Windows client computers to the Active Directory domain and verify domain authentication.
+Join Windows client computers to the Active Directory domain, troubleshoot DNS-related connectivity issues, and verify successful authentication against the Domain Controller.
+
+**Documentation**
+
+- [`joining-computers-to-domain/`](joining-computers-to-domain/)
 
 Topics covered:
 
+- Troubleshooting DNS name resolution
+- Configuring the Domain Controller as the client's DNS server
 - Joining Windows clients to Active Directory
-- Computer account creation
-- Domain authentication
-- Logging in with domain accounts
-- Troubleshooting domain joins
+- Creating computer accounts
+- Verifying domain authentication
+- Logging in with domain user accounts
+- Validating computer objects in Active Directory
 
 ---
 
@@ -120,22 +126,22 @@ As the home lab expands, additional Active Directory administration topics will 
 
 ### Computer Management
 
-- Domain-Joined Computers
-- Computer Accounts
-- Remote Administration
+- Moving computer accounts into Organizational Units
+- Domain-joined computer administration
+- Remote administration
 
 ### Active Directory Maintenance
 
-- User Lifecycle Management
-- Organizational Unit Administration
-- Security Group Administration
+- User lifecycle management
+- Organizational Unit administration
+- Security Group administration
 
 ### Troubleshooting
 
-- Active Directory Troubleshooting
-- Authentication Issues
-- DNS Integration Issues
-- Group Policy Troubleshooting
+- Active Directory troubleshooting
+- Authentication issues
+- DNS integration issues
+- Group Policy troubleshooting
 
 ---
 
@@ -149,8 +155,11 @@ As the home lab expands, additional Active Directory administration topics will 
 - User Administration
 - Security Group Administration
 - Role-Based Access Control (RBAC)
+- Domain Join Administration
+- Client Deployment
 - Enterprise Authentication
-- DNS Integration
+- DNS Troubleshooting
+- Active Directory Troubleshooting
 - Microsoft Active Directory Best Practices
 
 ---
@@ -159,9 +168,11 @@ As the home lab expands, additional Active Directory administration topics will 
 
 - VMware Workstation Pro
 - Windows Server 2025
+- Windows 11
 - Server Manager
 - Active Directory Users and Computers (ADUC)
 - DNS Manager
+- Command Prompt
 
 ---
 
