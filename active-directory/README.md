@@ -27,7 +27,7 @@ Each major topic is documented separately with objectives, explanations, screens
 
 ## 1. Installing Active Directory
 
-**Status:** ✅ Complete
+**Status:** Complete
 
 Deploy Active Directory Domain Services (AD DS), install the first Domain Controller, create the Active Directory forest, and configure integrated DNS services.
 
@@ -47,7 +47,7 @@ Topics covered:
 
 ## 2. Organizational Units
 
-**Status:** ✅ Complete
+**Status:** Complete
 
 Design and implement an enterprise Organizational Unit (OU) structure to organize departments and prepare the environment for future Group Policy deployment.
 
@@ -67,7 +67,7 @@ Topics covered:
 
 ## 3. Users and Security Groups
 
-**Status:** ✅ Complete
+**Status:** Complete
 
 Create user accounts and implement Global Security Groups following Microsoft's recommended identity and access management practices.
 
@@ -87,7 +87,7 @@ Topics covered:
 
 ## 4. Joining Computers to the Domain
 
-**Status:** 🚧 In Progress
+**Status:** In Progress
 
 Join Windows client computers to the Active Directory domain and verify domain authentication.
 
