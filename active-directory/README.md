@@ -93,7 +93,7 @@ Join Windows client computers to the Active Directory domain, troubleshoot DNS-r
 
 **Documentation**
 
-- [`joining-computers-to-domain/`](joining-computers-to-domain/)
+- [`join-computers-to-domain/`](join-computers-to-domain/)
 
 Topics covered:
 
