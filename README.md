@@ -69,7 +69,7 @@ The objective of this project is to build a complete enterprise Windows Server e
 | Domain Authentication Verification | Complete |
 | DNS Administration | Planned |
 | DHCP Administration | Planned |
-| Group Policy | Planned |
+| Group Policy | In Progress |
 | File Server | Planned |
 | NTFS Permissions | Planned |
 | Share Permissions | Planned |
