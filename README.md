@@ -96,6 +96,8 @@ enterprise-windows-server-home-lab
 ├── dns
 ├── dhcp
 ├── group-policy
+│   ├── create-and-linkg-group-policy/
+│   └── README.md
 ├── file-server
 ├── permissions
 ├── troubleshooting
