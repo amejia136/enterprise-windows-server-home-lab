@@ -97,6 +97,8 @@ enterprise-windows-server-home-lab
 ├── dhcp
 ├── group-policy
 │   ├── create-and-linkg-group-policy/
+│   │   ├── screenshots
+│   │   └── README.md
 │   └── README.md
 ├── file-server
 ├── permissions
@@ -146,6 +148,10 @@ Completed:
 - Verified the computer account was automatically created in Active Directory.
 - Authenticated to the domain using both the built-in Administrator account and a standard domain user account.
 - Verified authentication using `whoami` and `%LOGONSERVER%`.
+- Created and linked a Group Policy Object (GPO) to an Organizational Unit.
+- Configured and deployed a User Configuration policy.
+- Forced a Group Policy update using `gpupdate /force`.
+- Verified successful Group Policy application on a Windows 11 domain client.
 
 ---
 
