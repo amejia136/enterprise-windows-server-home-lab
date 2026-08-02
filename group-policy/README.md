@@ -2,92 +2,120 @@
 
 ## Overview
 
-This section documents the implementation and management of Group Policy within a Windows Server 2025 Active Directory environment.
+This section documents the implementation and administration of Microsoft Group Policy within a Windows Server 2025 Active Directory enterprise environment.
 
-Group Policy is Microsoft's centralized management framework for configuring operating system settings, enforcing security policies, managing user environments, and controlling computer behavior across an enterprise domain.
+Group Policy provides centralized management for configuring Windows operating system settings, enforcing security policies, controlling user environments, and standardizing computer configurations across an Active Directory domain.
 
-Each topic in this section documents a different aspect of Group Policy administration through hands-on labs performed in a VMware Workstation Pro home lab.
-
----
-
-# Table of Contents
-
-1. [Creating and Linking Group Policy Objects](create-and-link-group-policy/README.md)
-2. Password Policies *(Coming Soon)*
-3. Desktop Restrictions *(Coming Soon)*
-4. Drive Mapping *(Coming Soon)*
-5. Logon Scripts *(Coming Soon)*
-6. Folder Redirection *(Coming Soon)*
+Each major topic is documented separately with objectives, explanations, screenshots, skills demonstrated, and lessons learned to mirror real-world enterprise infrastructure documentation.
 
 ---
 
-# Documentation Structure
+## Table of Contents
+
+1. [Creating and Linking Group Policy Objects](#1-creating-and-linking-group-policy-objects)
+2. [Planned Documentation](#planned-documentation)
+3. [Skills Demonstrated](#skills-demonstrated)
+4. [Tools Used](#tools-used)
+5. [Related Documentation](#related-documentation)
+
+---
+
+# Documentation Sections
 
 ## 1. Creating and Linking Group Policy Objects
 
-Learn how to:
+**Status:** Complete
 
-- Create a Group Policy Object (GPO)
-- Link a GPO to an Organizational Unit (OU)
-- Configure User Configuration policies
-- Deploy policy changes
-- Force a Group Policy update
-- Verify policy application on a Windows client
+Create, configure, and deploy Group Policy Objects (GPOs) to manage user settings through Organizational Units (OUs). Validate successful policy deployment on a Windows client computer within the Active Directory domain.
 
 **Documentation**
 
-[Create and Link Group Policy Objects](create-and-link-group-policy/README.md)
+- [`create-and-link-group-policy/`](create-and-link-group-policy/)
+
+Topics covered:
+
+- Creating Group Policy Objects (GPOs)
+- Linking GPOs to Organizational Units
+- Configuring User Configuration policies
+- Deploying Group Policy
+- Forcing Group Policy updates
+- Verifying policy application on Windows clients
+- Basic enterprise policy management
 
 ---
 
-## Future Topics
+## Planned Documentation
 
-The following enterprise administration topics will be added as additional labs:
+As the home lab expands, additional Group Policy administration topics will be documented.
 
-- Password Complexity Policies
+### Security Policies
+
+- Password Policies
+- Password Complexity Requirements
 - Account Lockout Policies
+- Security Options
+
+### User Environment Management
+
 - Desktop Restrictions
+- Control Panel Restrictions
 - Start Menu Customization
+- Folder Redirection
+- Logon Scripts
+
+### Enterprise Administration
+
 - Drive Mapping
 - Printer Deployment
 - Software Deployment
 - Windows Update Policies
-- Logon Scripts
-- Folder Redirection
 - Security Filtering
+- WMI Filtering
 - Loopback Processing
+
+### Troubleshooting
+
+- Group Policy troubleshooting
+- Policy inheritance
+- Policy precedence
+- Resultant Set of Policy (RSoP)
+- GPResult analysis
+
+---
+
+## Skills Demonstrated
+
+- Group Policy Object (GPO) Administration
+- Organizational Unit (OU) Management
+- Centralized Policy Deployment
+- Enterprise User Management
+- Active Directory Integration
+- Client Policy Verification
+- Windows Enterprise Administration
 - Group Policy Troubleshooting
 
 ---
 
-# Skills Demonstrated
+## Tools Used
 
-- Group Policy Object (GPO) administration
-- Organizational Unit (OU) management
-- Centralized policy deployment
-- User Configuration management
-- Enterprise Windows administration
-- Active Directory integration
-- Client policy verification
-- Windows administration
-
----
-
-# Technologies Used
-
+- VMware Workstation Pro
 - Windows Server 2025
 - Windows 11
-- VMware Workstation Pro
 - Active Directory Domain Services (AD DS)
 - Group Policy Management Console (GPMC)
 - Group Policy Management Editor
+- Command Prompt
 
 ---
 
-# Related Documentation
+## Related Documentation
 
-- [Active Directory](../active-directory/README.md)
-- Networking *(Coming Soon)*
-- DNS *(Coming Soon)*
-- DHCP *(Coming Soon)*
-- File Server *(Coming Soon)*
+Additional components of this enterprise lab include:
+
+- Active Directory
+- Networking
+- DNS
+- DHCP
+- File Server
+- Permissions
+- Troubleshooting
